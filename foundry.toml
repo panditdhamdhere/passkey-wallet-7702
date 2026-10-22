@@ -1,0 +1,8 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.30"
+# Osaka (Fusaka) is where the P256VERIFY precompile at 0x100 (EIP-7951) exists.
+# Prague is where EIP-7702 exists. Osaka includes both.
+evm_version = "osaka"
